@@ -3,7 +3,7 @@ def get_divisores(numero: int):
     divisores = []
     
     if numero == 0:
-        divisores.append("Todos os números inteiros")
+        divisores.append("Todos os números inteiros exceto 0")
     
     if numero == 1:
         divisores.append(1)
